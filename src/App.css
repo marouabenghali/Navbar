@@ -1,0 +1,42 @@
+
+ .App {
+    width:220px;
+    margin-left:130px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+a:hover {
+    color:rgb(50, 166, 201)
+}
+.App{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-inline-start: 0px;
+    border-bottom: 2px solid rgb(0, 217, 255);
+}
+.subMenu{
+    padding-inline-start: 0px;
+    display: block;
+    position: absolute;
+    border-bottom: none;
+    visibility: hidden;
+    border:2px solid rgb(0, 217, 255);
+    padding: 10px;
+    height: 70px;
+}
+ul li{
+  
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+ul li:hover ul{
+    visibility: visible;
+}
+ 
